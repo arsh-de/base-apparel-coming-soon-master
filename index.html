@@ -11,37 +11,40 @@
 </head>
 
 <body>
+
   <main class="container">
 
     <section class="header">
       <img src="images/logo.svg" alt="logo">
     </section>
 
-    <section class="image-container"> </section>
+    <section class="image-container">
+      <img src="images/hero-desktop.jpg" alt="hero-desktop">
+    </section>
 
     <section class="info-container">
-      <article>
+      <article class="info">
         <h1 class="heading">
           <span class="were">We're</span><br>
           <span class="coming">coming soon</span>
         </h1>
-      </article>
-      <article class="about-us">
-        Hello fellow shoppers! We're currently building our new fashion store.
-        Add your email below to stay up-to-date with announcements and our launch deals.
-      </article>
-      <article class="button-container">
+        <p class="about-us">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
         <form>
           <button type="submit"><img src="images/icon-arrow.svg" alt="icon-arrow" class="arrow"></button>
-          <img src="images/icon-error.svg" alt="icon-error" class="error none">
+          <img src="images/icon-error.svg" alt="icon-error" class="error-icon none">
           <input type="email" class="email" name="email" placeholder="Email Address"></input>
-          <p class="confirm none">Email Sent!</p>
+          <p class="error-text none"></p>
         </form>
       </article>
     </section>
 
   </main>
+
   <script src="script.js"></script>
+
 </body>
 
 </html>
