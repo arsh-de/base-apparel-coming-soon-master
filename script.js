@@ -29,5 +29,6 @@ button.addEventListener("click", (e) => {
         invalidIcon.classList.add("none");
         email.value = "";
         validText.style.color = "green"
+        email.style.border = "none"
     }
 });
