@@ -127,6 +127,10 @@ button {
     display: none;
 }
 
+.hidden {
+    display: none;
+}
+
 @media(min-width:768px) {
     .container {
         display: flex;
@@ -171,6 +175,10 @@ button {
 
     .info {
         max-width: 600px;
+    }
+
+    .hidden {
+        display: block;
     }
 }
 
